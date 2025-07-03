@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Luklog</title>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <footer>
+        <div class="overflow-hidden primary-background text-reg">
+            <div class="position-relative container-xl">
+                <div class="row my-5">
+                    <div class="col-2 me-4">
+                        <h1 class="footer-heading text-uppercase">Luklog™</h1>
+                    </div>
+                    <div class="col-md-6 my-auto position-relative">
+                        <div class="row mb-4">
+                            <h1 class="footer-heading">Dane kontaktowe</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 d-flex text-light">
+                                <a href="https://maps.app.goo.gl/hHfGeAt7Pdbi1keAA" target="_blank">
+                                    <i class="bi bi-geo-alt me-2" aria-hidden="true"></i>
+                                </a>
+                                <p>
+                                    Luklog sp z o.o. <br>
+                                    ul. Cieleśnica 14/1<br>
+                                    21-504 Cieleśnica, Polska<br>
+                                    NIP: 5372661663
+                                </p>
+                            </div>
+                            <div class="col-sm-6 d-flex text-light">
+                                <a href="tel:+48574317777">
+                                    <i class="bi bi-telephone me-2" aria-hidden="true"></i>
+                                </a>
+                                <p>
+                                    Tel/Fax: <a href="tel:+48574317777" class="text-light"> +48 574 317 777 </a><br>
+                                    Email: <a href="mailto:info@luklog.pl" class="text-light">info@luklog.pl</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-light mb-3">© 2017 — 2025</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function setCookie(name, value, days) {
+            let expires = "";
+            if (days) {
+                let date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000)); // Convert days to milliseconds
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+
+        function getCookie(name) {
+            let nameEQ = name + "=";
+            let ca = document.cookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i].trim();
+                if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        window.addEventListener("load", function () {
+            if (getCookie("cookieConsent")) {
+                console.log("Cookie consent already given. No banner shown.");
+                return;
+            }
+
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": { "background": "#000" },
+                    "button": { "background": "#f1d600" }
+                },
+                "theme": "classic",
+                "content": {
+                    "message": "This website uses cookies to improve your experience.",
+                    "deny": "Deny",
+                    "dismiss": "Allow only essentials",
+                    "allow": "Allow all",
+                    "link": "Learn more",
+                    "href": "privacy-policy.html"
+                },
+                "type": "opt-in",
+                "layout": "basic",
+                "elements": {
+                    "messagelink": '<span id="cookieconsent:desc" class="cc-message">{{message}} <a aria-label="learn more about cookies" tabindex="0" class="cc-link" href="{{href}}" target="_blank">{{link}}</a></span>',
+                    "deny": '<button type="button" class="cc-btn cc-deny">{{deny}}</button>',
+                    "dismiss": '<button type="button" class="cc-btn cc-dismiss">{{dismiss}}</button>',
+                    "allow": '<button type="button" class="cc-btn cc-allow">{{allow}}</button>'
+                },
+                "compliance": {
+                    "info": '<div class="cc-compliance">{{dismiss}}</div>',
+                    "opt-in": '<div class="cc-compliance cc-highlight">{{deny}}{{dismiss}}{{allow}}</div>'
+                },
+                "onInitialise": function (status) {
+                    applyCookieChoice(status);
+                },
+                "onStatusChange": function (status) {
+                    applyCookieChoice(status);
+                },
+                "onRevokeChoice": function () {
+                    disableCookies();
+                }
+            });
+
+            function applyCookieChoice(status) {
+                if (status === "allow") {
+                    enableAllCookies();
+                    setCookie("cookieConsent", "allow", 365);
+                } else if (status === "dismiss") {
+                    enableEssentialCookies();
+                    setCookie("cookieConsent", "essential", 365);
+                } else {
+                    disableCookies();
+                    setCookie("cookieConsent", "deny", 365);
+                }
+            }
+
+            function enableAllCookies() {
+                console.log("All cookies enabled.");
+                // Here, you can enable Google Analytics, Ads, etc.
+            }
+
+            function enableEssentialCookies() {
+                console.log("Only essential cookies enabled.");
+                // Here, allow only functional session cookies
+            }
+
+            function disableCookies() {
+                console.log("Cookies disabled.");
+                // Block all non-essential cookies
+            }
+        });
+    </script>
+
+</body>
+
+</html>

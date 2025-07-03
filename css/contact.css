@@ -1,0 +1,66 @@
+.lub {
+  font-size: 24px;
+  font-weight: 500;
+  color: #003366;
+}
+
+.welcome-contact {
+  color: #fff;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.welcome-bg-contact {
+  background: linear-gradient(90deg, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/contact.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#welcome-title-contact {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 84.5px;
+}
+
+.s1 {
+  margin: 20px 0 50px;
+}
+
+.s1-card-contact {
+  background: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  width: 300px;
+  height: 350px;
+  padding: 36px;
+  margin-top: 24px;
+}
+
+.s2-contact-input {
+  background: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  width: 360px;
+  height: 60px;
+}
+
+.s2-contact-input-tresc {
+  background: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  width: 760px;
+  height: 150px;
+}
+
+.s2-button {
+  background: #003366;
+  border: 1px solid #003366;
+  border-radius: 4px;
+  width: 270px;
+  height: 60px;
+}
+
+.black-text {
+  color: black;
+}

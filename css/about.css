@@ -1,0 +1,68 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.welcome-about {
+  color: #fff;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.welcome-bg-about {
+  background: linear-gradient(90deg, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/logistyka1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#welcome-title-about {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 84.5px;
+}
+
+.s3-comp-about {
+  width: 550px;
+  height: 450px;
+  position: relative;
+}
+
+.s3-comp-solid-about {
+  background-color: #003366;
+  width: 535px;
+  height: 435px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.s3-comp-img-about {
+  background-image: url("/media/klient1.webp");
+  background-size: cover;
+  width: 535px;
+  height: 435px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.tabs-about {
+  font-size: 18px;
+  font-weight: 600;
+  color: #003366;
+}
+
+.zheka-about {
+  font-size: 18px;
+  font-weight: 500;
+  color: #828282;
+}
+
+#magic-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 4px;
+  background: #003366;
+}

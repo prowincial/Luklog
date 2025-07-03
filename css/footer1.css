@@ -1,0 +1,25 @@
+footer {
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-heading {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.primary-background {
+    background-color: #003366;
+}
+
+a {
+    text-decoration: none;
+}
+
+a i.bi-telephone {
+    color: #fff;
+}
+
+a i.bi-geo-alt {
+    color: #fff;
+}

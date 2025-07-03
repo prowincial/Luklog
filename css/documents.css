@@ -1,0 +1,36 @@
+.tabs-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.document-box {
+    width: 250px;
+    height: 100px;
+}
+
+.document-container {
+    border-radius: 4px;
+    width: 1450px;
+    height: 450px;
+}
+
+.welcome-section {
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.welcome-background {
+    background: linear-gradient(90deg, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/doc.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#welcome-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 84.5px;
+}
+

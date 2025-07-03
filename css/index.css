@@ -1,0 +1,249 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.nawigacyja {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.myhrline {
+    margin: 0;
+}
+
+.social-icons {
+    font-size: 24px;
+    color: #BDBDBD;
+}
+
+.contact-mini {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #828282;
+    margin-top: 24px;
+}
+
+#welcome-title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84.5px;
+}
+
+.welcome {
+    color: #fff;
+    margin-top: 360px;
+    margin-bottom: 72px;
+}
+
+.sub {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sub-white {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.welcome-bg {
+    background: linear-gradient(90deg, #003366 0%, rgba(0, 51, 102, 0) 60%), url("/media/main.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.s1-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #003366;
+}
+
+.s1 {
+    margin-top: 96px;
+    margin-bottom: 72px;
+}
+
+.s1-card {
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    width: 300px;
+    height: 300px;
+    padding: 36px;
+    margin-top: 24px;
+}
+
+.s1-card-header {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.s1-card-hr {
+    width: 60px;
+    border-top: 2px solid #003366;
+    color: #003366;
+    background-color: #003366;
+    opacity: 1;
+}
+
+.s2-card-b {
+    position: relative;
+    width: 636px;
+    height: 550px;
+    background-image: linear-gradient(to top, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/spedycja.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 36px;
+    padding-bottom: 24px;
+}
+
+.s2-card-b:hover>a {
+    position: absolute;
+    bottom: 72px;
+}
+
+.s2-card-b:hover>.s2-card-more {
+    visibility: visible;
+    bottom: 36px;
+}
+
+.s2-card-more {
+    position: absolute;
+    visibility: hidden;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.s2-card-more:hover {
+    color: #fff;
+}
+
+.s2-card-header {
+    font-size: 48px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+.s2-card-header:hover {
+    color: #fff;
+}
+
+.s2-card-s {
+    position: relative;
+    width: 636px;
+    height: 263px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-left: 36px;
+    padding-bottom: 24px;
+}
+
+.s2-card-s:hover>a {
+    position: absolute;
+    bottom: 72px;
+}
+
+.s2-card-s:hover>.s2-card-more {
+    position: absolute;
+    visibility: visible;
+    bottom: 36px;
+}
+
+#s2-card-s1 {
+    background-image: linear-gradient(to top, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/transport-krajowy.webp");
+}
+
+#s2-card-s2 {
+    background-image: linear-gradient(to top, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/logistyka.webp");
+}
+
+#s2-card-s3 {
+    background-image: linear-gradient(to top, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/spedycja.webp");
+}
+
+#s2-card-s4 {
+    background-image: linear-gradient(to top, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/livestock.webp");
+}
+
+.prim-bg {
+    background-color: #003366;
+}
+
+.s3-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.s4-comp {
+    width: 550px;
+    height: 315px;
+    position: relative;
+}
+
+.s4-comp-solid {
+    background-color: #003366;
+    width: 535px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.s4-comp-img {
+    background-image: url("/media/luklogCar.webp");
+    background-size: cover;
+    width: 535px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.btn-outline-primary {
+    color: #003366;
+    border-color: #003366;
+}
+
+.btn-outline-primary:hover {
+    background-color: #003366;
+    border-color: #003366;
+}
+
+.s5-comp {
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+
+.s5-comp-solid {
+    background-color: #003366;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.s5-comp-img {
+    background-image: url("/media/klient.webp");
+    background-size: cover;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-h {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}

@@ -1,0 +1,60 @@
+.s1_text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #828282;
+}
+
+.welcome-spedycja {
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.welcome-bg-spedycja {
+    background: linear-gradient(90deg, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/spedycja1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#welcome-title-spedycja {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 84.5px;
+}
+
+.spedycja_shape {
+    border-radius: 4px;
+    width: 1450px;
+    height: 1000px;
+}
+
+.s1_text_shape {
+    border-radius: 4px;
+    width: 800px;
+    height: 60px;
+}
+
+.s2_shape {
+    border-radius: 4px;
+    width: 1450px;
+    height: 400px;
+}
+
+.s2_img {
+    background-image: url("/media/logistyka.webp");
+    background-size: cover;
+    width: 450px;
+    height: 360px;
+    position: absolute;
+}
+
+.s2_text {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.s2-button {
+    background: #003366;
+}

@@ -1,0 +1,52 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.nawigacyja {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.myhrline {
+    margin: 0;
+}
+
+.social-icons {
+    font-size: 24px;
+    color: #BDBDBD;
+}
+
+.contact-mini {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #828282;
+    margin-top: 24px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    color: #003366;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0056b3;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
