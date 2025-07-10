@@ -11,7 +11,7 @@
 }
 
 .welcome-bg-contact {
-  background: linear-gradient(90deg, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/contact.webp");
+  background: linear-gradient(90deg, #003366 0%, rgba(0, 51, 102, 0) 40%), url("../media/contact.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;

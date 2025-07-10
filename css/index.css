@@ -48,7 +48,7 @@ body {
 }
 
 .welcome-bg {
-    background: linear-gradient(90deg, #003366 0%, rgba(0, 51, 102, 0) 60%), url("/media/main.webp");
+    background: linear-gradient(90deg, #003366 0%, rgba(0, 51, 102, 0) 60%), url("../media/main.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -155,19 +155,19 @@ body {
 }
 
 #s2-card-s1 {
-    background-image: linear-gradient(to top, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/transport-krajowy.webp");
+    background-image: linear-gradient(to top, #003366 0%, rgba(0, 51, 102, 0) 40%), url("../media/transport-krajowy.webp");
 }
 
 #s2-card-s2 {
-    background-image: linear-gradient(to top, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/logistyka.webp");
+    background-image: linear-gradient(to top, #003366 0%, rgba(0, 51, 102, 0) 40%), url("../media/logistyka.webp");
 }
 
 #s2-card-s3 {
-    background-image: linear-gradient(to top, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/spedycja.webp");
+    background-image: linear-gradient(to top, #003366 0%, rgba(0, 51, 102, 0) 40%), url("../media/spedycja.webp");
 }
 
 #s2-card-s4 {
-    background-image: linear-gradient(to top, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/livestock.webp");
+    background-image: linear-gradient(to top, #003366 0%, rgba(0, 51, 102, 0) 40%), url("../media/livestock.webp");
 }
 
 .prim-bg {
@@ -196,7 +196,7 @@ body {
 }
 
 .s4-comp-img {
-    background-image: url("/media/luklogCar.webp");
+    background-image: url("../media/luklogCar.webp");
     background-size: cover;
     width: 535px;
     height: 300px;
@@ -232,7 +232,7 @@ body {
 }
 
 .s5-comp-img {
-    background-image: url("/media/klient.webp");
+    background-image: url("../media/klient.webp");
     background-size: cover;
     width: 330px;
     height: 330px;

@@ -11,7 +11,7 @@
 }
 
 .welcome-bg-spedycja {
-    background: linear-gradient(90deg, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/spedycja1.webp");
+    background: linear-gradient(90deg, #003366 0%, rgba(0, 51, 102, 0) 40%), url("../media/spedycja1.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -42,7 +42,7 @@
 }
 
 .s2_img {
-    background-image: url("/media/logistyka.webp");
+    background-image: url("../media/logistyka.webp");
     background-size: cover;
     width: 450px;
     height: 360px;

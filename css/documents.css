@@ -22,7 +22,7 @@
 }
 
 .welcome-background {
-    background: linear-gradient(90deg, #003366 0%, rgba(0, 51, 102, 0) 40%), url("/media/doc.webp");
+    background: linear-gradient(90deg, #003366 0%, rgba(0, 51, 102, 0) 40%), url("../media/doc.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
